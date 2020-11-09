@@ -53,7 +53,7 @@
   <div class="card" style="width:200px" >
     <img class="card-img-top" src="../imagenes/check.png" alt="Card image" style="width:100%">
     <div class="card-body">
-      <a href="rubricas.php" class="btn btn-primary">Rubricas</a>
+      <a href="rubricas.html" class="btn btn-primary">Rubricas</a>
     </div>
   </div>
   <br>
@@ -62,7 +62,7 @@
   <div class="card" style="width:200px">
     <img class="card-img-top" src="../imagenes/excel.png" alt="Card image" style="width:100%">
     <div class="card-body">
-      <a href="generaciones.php" class="btn btn-primary">Generaciones</a>
+      <a href="generaciones.html" class="btn btn-primary">Generaciones</a>
     </div>
   </div>
   <br>
@@ -80,7 +80,7 @@
   <div class="card" style="width:200px">
     <img class="card-img-top" src="../imagenes/proyecto.png" alt="Card image" style="width:100%">
     <div class="card-body">
-      <a href="proyectos.php" class="btn btn-primary">Proyectos</a>
+      <a href="proyectos.html" class="btn btn-primary">Proyectos</a>
     </div>
   </div>
   <br>
@@ -99,6 +99,4 @@
 
 </body>
 </html>
-
-<?php include 'partials/footer.php';?>
 

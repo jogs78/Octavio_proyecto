@@ -17,7 +17,7 @@
 
       <h1  >Generaciones</h1>
       
-         <a class = "btn btn-primary btn-lg"  href="index.php" role = "button">Regresar</a>
+         <a class = "btn btn-primary btn-lg"  href="index.html" role = "button">Regresar</a>
       </p>
    </div>
 </div>
@@ -46,7 +46,7 @@
       <td>Generaion 2018</td>
       <td>3</td>
       <td><a href="#" type="button" class="btn btn-success">EDITAR</a>
-      <a href="mostrar_generaciones.php" class="btn btn-warning">MOSTRAR</a>
+      <a href="mostrar_generaciones.html" class="btn btn-warning">MOSTRAR</a>
 <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
     </tr>
     <tr>

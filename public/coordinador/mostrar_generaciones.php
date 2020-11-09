@@ -43,7 +43,7 @@ body {
   <div class="container" style="width: 48rem;">
    <h1 class="formuh1">Create_Momento</h1>
    <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
-    <form id="form1" class="well col-lg-12" action="enviar.php" method="post" name="form1" enctype="multipart/form-data">
+    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1" enctype="multipart/form-data">
       <div class="row" >
        <div class="col-lg-9">
       
@@ -86,7 +86,7 @@ body {
 
   <div  style="margin:10px 0px 0px 350px;" >
 
-  <a class = "btn btn-primary"  href="generaciones.php" role = "button">Agregar</a>
+  <a class = "btn btn-primary"  href="generaciones.html" role = "button">Agregar</a>
 
 
   
