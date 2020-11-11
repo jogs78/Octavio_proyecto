@@ -1,0 +1,212 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Vertical Menu </title>
+<meta name ="viewport" content ="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+ 
+
+
+
+<body>
+<div class="row">
+<div class="col-3">
+<nav class ="navbar bg-light">
+<ul class ="nav navbar-nav">
+<li class ="nav-item">
+<a class ="nav-link" href="#"> Home </a>
+</li>
+<li class ="nav-item">
+<a class ="nav-link" href="#"> Services </a>
+</li>
+<li class ="nav-item">
+<a class ="nav-link" href="#"> Contact </a>
+</li>
+<li class ="nav-item">
+<a class ="nav-link" href="#"> Blogs </a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="col-9">
+<div class="container">
+    <br>
+    <h1>DASHBOAR</h1>
+
+ <div class="row">
+         <head>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+      
+            function drawChart() {
+      
+              var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['PROCESO',     80],
+                ['FALTA',      20]
+              ]);
+      
+              var options = {
+                title: 'Revisados en MN'
+              };
+      
+              var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      
+              chart.draw(data, options);
+            }
+          </script>
+        </head>
+        <body>
+          <div id="piechart" style="width: 620px; height: 320px;"></div>
+          
+  <div style="margin:30px 0px 0px 310px;">
+  <a class = "btn btn-primary"  href="../docente/revision.html" role = "button">Ir a revision</a>
+  
+      </div>
+          
+        </body>
+</div>
+
+<div style="margin:-325px 0px 0px 450px;">
+
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['PROCESO',     90],
+          ['FALTA',      10]
+        ]);
+
+        var options = {
+          title: 'Revisados M n-1',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="piechart_3d" style="width: 620px; height: 320px;"></div>
+  </body>
+</html></div>
+
+
+
+<div class =”container”>
+    <div style="margin:25px 0px 0px 0px;">
+   
+        <head>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            google.charts.load("current", {packages:["corechart"]});
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Work',     100],
+                ['Eat',      1],
+              ]);
+      
+              var options = {
+                title: 'Revisados en M',
+                pieHole: 0.4,
+              };
+      
+              var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+              chart.draw(data, options);
+            }
+          </script>
+        </head>
+        <body>
+          <div id="donutchart" style="width: 620px; height: 320px;"></div>
+        </body>
+    
+        <div style="margin:25px 0px 0px 50px;">
+          
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Day');
+      data.addColumn('number', 'SOMETIDOS');
+  
+
+      data.addRows([
+        [1,  37.8],
+        [2,  30.9],
+        [3,  25.4],
+        [4,  11.7],
+        [5,  11.9],
+        [6,   8.8],
+        [7,   7.6],
+        [8,  12.3],
+        [9,  16.9],
+        [10, 12.8],
+        [11,  5.3],
+        [12,  6.6],
+        [13,  4.8],
+        [14,  4.2]
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Sometidos'
+        },
+        width: 850,
+        height: 400,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+  </script>
+</head>
+<body>
+  <div id="line_top_x"></div>
+    
+  <div style="margin:30px 0px 0px 310px;">
+    <a class = "btn btn-primary"  href="proyectos.html" role = "button">Ir a revision</a>
+    
+        </div>
+</body>
+
+             
+</div>
+</div>
+</div>
+<br><br><br><br>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
