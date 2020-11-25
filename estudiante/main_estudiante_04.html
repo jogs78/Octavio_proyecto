@@ -57,87 +57,103 @@ body {
   <a href="#">
 <img src="../imagenes/baucher.png" style="height: 50px;"/>
 </a>
-        <input  id="Nombre" class="form-control" type="text" name="Nombre" />
+        <input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Sistema para doctorado"/>
         <br>
 
-        <label>Hipotesis</label><input  id="Nombre" class="form-control" type="text" name="Nombre" />
-        <label>Objetivo general</label><input  id="Nombre" class="form-control" type="text" name="Nombre" />
-        <label>Objetivo especifico</label> <textarea id="Mensaje" class="form-control" name="Mensaje" rows="4"></textarea>
+        <label>Hipotesis</label><input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="El exceso de automóviles y las fábricas son las causas de la contaminación ambiental en las grandes ciudades." />
+        <label>Objetivo general</label><input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Aprobar matemáticas durante todo el año" />
+        <label>Objetivo especifico</label> <textarea id="Mensaje" class="form-control" name="Mensaje" rows="4" placeholder=
+        "*Mantenerse al día con los ejercicios indicados por los profesores
+*Practicar con exámenes de prueba una semana antes de los exámenes reales
+*Hacer las preguntas que sean necesarias para entender los temas nuevos.
+        "></textarea>
 <br>
         <div class="col-lg-14">
 <div class="row">
 <div  style="margin:10px 0px 0px 18px;" >
 
-<label>Cronograma</label> 
+  <label>Compromisos</label> 
+  <div class="row">
+    <div class="col">
+      <select class="mdb-select md-form bg-white text-dark text-center py-3 px-4 ">
+        <option>Articulos JCR sometidos</option>
+        <option>Articulos JCR Aceptados o Publicados</option>
+        <option>Modelo de utilidad o Patente</option>
+        <option>Conferencias nacionales</option>
+        <option>Conferencias internacionales</option>
+      </select> 
+  
+  
+    </div>
+    <div class="col">
+      <input type="number" name="" placeholder="#" id="">    
+  
+      <button class="button">+</button>
+    </div>
+  
+    
+    
+  
+  </div>
+  <div>
+  
+  
+  
+        
+  </div>
+  <br>
+  <table class="table">
+    <thead>
+      <th>
+        <td>Compromiso</td>
+        <td>Cantidad</td>
+      </th>
+    </thead>
+    
+    <tbody>
+      <tr>
+        <td>Articulos JCR sometidos</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Conferencias nacionales</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <div class="form-group row">
+      <label  class="col-sm-2 col-form-label">Cronograma</label>
+      <div class="col-sm-5 ">
+        <input type="text" class="form-control" placeholder="Activiad...">
+      </div>  <div> <button class="button">+</button>
+  </div>
+    </div>
+  
+    <table class="table">
+      <thead>
+        <th>
+          <td>Actividad</td>
+        </th>
+      </thead>
+      <tbody>
+        <tr>       
+          <td>Busqueda de informacion</td>
+        </tr>
+        <tr>       
+          <td>Creacion de la herramienta</td>
+        </tr>
+        <tr>       
+          <td>Difusion del trabajo</td>
+        </tr>      
+      </tbody>
+    </table>
+    
 
-</div>
 
-<div  style="margin:5px 0px 0px 20px;" >
-        <table class="table table-striped table-bordered" style="width: 420px;">
- 
-  <tbody>
-
-    <tr>
-    <td >1</td>  
-
-      <td><input  id="Nombre" class="form-control" type="text" name="Nombre" /> </td>  
-</tr>
-<tr>
-    <td >2</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-<tr>
-    <td >3</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-<tr>
-    <td >4</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-  </tbody>
-</table>
-</div>
-<br>
-<br>
-
-        <div class="col-lg-14">
-<div class="row">
-<div  style="margin:15px 0px 0px 18px;" >
-
-<label>Compromisos</label> 
-
-</div>
-
-<div  style="margin:10px 0px 0px 23px;" >
-        <table class="table table-striped table-bordered" style="width: 420px;">
- 
-  <tbody>
-
-    <tr>
-    <td >1</td>  
-
-      <td><input  id="Nombre" class="form-control" type="text" name="Nombre" /> </td>  
-</tr>
-<tr>
-    <td >2</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-<tr>
-    <td >3</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-<tr>
-    <td >4</td>  
-
-      <td ><input  id="Nombre" class="form-control" type="text" name="Nombre" /></td>  
-</tr>
-  </tbody>
-</table>
+      <a class = "btn btn-success "  href="../index.html" role = "button">Aceptar</a>
+  
+  <br>
 
 
 

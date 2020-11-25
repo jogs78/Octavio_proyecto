@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="author" content="Innoweb - Peterson F.">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/jumbotron.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <style>
+body {
+  background-image: url('../imagenes/fondo_index.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<br>
+<br>
+<br>
+
+  <div class="container" style="width: 48rem;">
+   <h1 class="formuh1">Editar momento</h1>
+   <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
+    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1" enctype="multipart/form-data">
+      <div class="row" >
+       <div class="col-lg-9">
+      
+        <label>Nombre</label> <input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Crean proyecto"/> 
+        </div>
+
+       </div>
+        <label>Descripcion</label> 
+         <textarea id="Mensaje" class="form-control" name="Mensaje" rows="4" placeholder="3"></textarea>
+        </div>
+        
+
+  <div style="margin:0px 0px 0px 830px;">
+  <a class = "btn btn-primary"  href="mostrar_generaciones.html" role = "button">Regresar</a>
+  
+      </div>
+      
+    </form>
+   
+
+
+  </div>
+  
+
+  </body>
+</html>

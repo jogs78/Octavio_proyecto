@@ -1,0 +1,134 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<div class = "jumbotron" style="background-image: url(../imagenes/fondo_index.jpg); background-size: 100%;">
+
+
+<br><br>
+
+<div class="container" style="width: 50rem;">
+
+   <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
+    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1" enctype="multipart/form-data">
+      <div class="row" >
+       <div class="col-lg-12">
+  
+  
+        <label>Tipo</label> <input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Alfanumerica" />
+      <br>
+        <label>Criterios</label>
+<table class="table table-striped ">
+  <thead class="thead-white">
+    <tr>
+
+      <th scope="col">Aspecto</th>
+      <th scope="col">Puntuacion</th>
+      <th scope="col">ACCIONES</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+
+      <td>Identificacion del problema o necesidad</td>
+      <td>Exelente</td>
+      <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+    </tr>
+    <tr>
+
+    <tr>
+
+<td>Hipotesis</td>
+<td>Regular</td>
+<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+</tr>
+<tr>
+
+<tr>
+
+<td>Estado del arte</td>
+<td>Regular</td>
+<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+</tr>
+<tr>
+
+<tr>
+
+<td>Alcance y resultados</td>
+<td>Muy bien</td>
+<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+</tr>
+<tr>
+  <tr>
+
+    <td>Metodologia</td>
+    <td>Muy bien</td>
+    <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+    <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+    </tr>
+    <tr>
+      <tr>
+
+        <td>Recursos requeridos</td>
+        <td>Exelente</td>
+        <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+        </tr>
+        <tr>
+          <tr>
+
+            <td>Impacto pertenencia y relevancia</td>
+            <td>Muy bien</td>
+            <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+            <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+            </tr>
+            <tr>
+
+              <tr>
+
+                <td>Organizacion del documento</td>
+                <td>Bien</td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+                </tr>
+                <tr>
+                  <tr>
+
+                    <td>Presentacion general del documento</td>
+                    <td>Exelente</td>
+                    <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+                    </tr>
+                    <tr>
+      
+  </tbody>
+</table>
+
+<br>
+<div style="margin:-20px 0px 0px 0px;">
+  <a class = "btn btn-primary btn-lg"  href="rubricas.html" role = "button">Agregar criterio</a>
+  
+      </div>
+  
+      </div></div>
+      
+    </form>
+  <br>
+  <div>
+
+
+</div>
+<br><br><br>
+
+  </body>
