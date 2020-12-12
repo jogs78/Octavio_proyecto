@@ -1,110 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">    
-    <meta name="author" content="Innoweb - Peterson F.">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Innoweb - Peterson F.">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="../css/jumbotron.css" rel="stylesheet">
-  
-  </head>
+</head>
 
-  <body>
+<body>
   <style>
-body {
-  background-image: url('../imagenes/fondo_index.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
+    body {
+      background-image: url('../imagenes/fondo_index.jpg');
+      background-size: cover;
+    }
+  </style>
 
 
-<br>
+  <br>
 
-<div class="container" >
-<div class="row">
-
-<div>
-    <p><h2 style="color: white;">Nombre:</h2> <strong> Genercion 2018</strong>.</p>
-</div>
-<div>
-    <p><h2 style="color: white;">Descripcion:</h2>  <strong> 3</strong>.</p>
-    </div>
+  <div class="container">
+    <div class="row">
+        <p>
+           Nombre: Genercion 2018.
+      </p>
     </div>
 
-  <div class="container" >
-    <a href="create_momento.html" class="btn btn-info btn-lg btn-block">AGREGAR MOMENTO</a>
-    <table class="table table-striped table-bordered">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">NOMBRE</th>
-          <th scope="col">DESCRIPCION</th>
-          <th scope="col">ACCIONES</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Primer semestre</td>
-          <td>3</td>
-          <td>
-            <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
-            <a href="editar_momento.html" class="btn btn-success">EDITAR</a>
-            <a href="mostrar_momento.html" class="btn btn-warning">MOSTRAR</a>
-            <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-        </tr>
-        <tr>
-    
-          <td>2do semestre</td>
-          <td>Enero-Junio 2019</td>
-          <td>
-            <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
-            <a href="editar_momento.html" class="btn btn-success">EDITAR</a>
-            <a href="mostrar_momento.html" class="btn btn-warning">MOSTRAR</a>
-    <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-        </tr>
-    
-        <tr>
-    
-    <td>3er semestre</td>
-    <td>Agosto Diciembre de 2019</td>
-    <td>
-      <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
-            <a href="editar_momento.html" class="btn btn-success">EDITAR</a>
-            <a href="mostrar_momento.html" class="btn btn-warning">MOSTRAR</a>
-    <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-    </tr>
-    
-    <tr>
-    
-    <td>4to semestre</td>
-    <td>Por pandemia solo se abrio un semestre</td>
-    <td>
-      <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
-      <a href="editar_momento.html" class="btn btn-success">EDITAR</a>
-            <a href="mostrar_momento.html" class="btn btn-warning">MOSTRAR</a>
-    <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-    </tr>
-    
-      </tbody>
-    </table>
-    
-    
-   </div>
+    <div class="row">
+      <a href="create_momento.html" class="btn btn-info btn-lg btn-block">AGREGAR PERIODO</a>
 
-  
+      <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>NOMBRE</th>
+            <th>ESTADO</th>
+            <th>ACCIONES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1er semestre</td>
+            <td>Concluido</td>
+            <td>
+              <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
+              <a href="editar_periodo.html" class="btn btn-success">EDITAR</a>
+              <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2do semestre</td>
+            <td>Concluido</td>
+            <td>
+              <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
+              <a href="editar_periodo.html" class="btn btn-success">EDITAR</a>
+              <button type="submit" class="btn btn-danger"
+                onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+          </tr>
+          <tr>
+            <td>3er semestre</td>
+            <td>Concluido</td>
+            <td>
+              <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
+              <a href="editar_periodo.html" class="btn btn-success">EDITAR</a>
+              <button type="submit" class="btn btn-danger"
+                onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+          </tr>
+          <tr>
+            <td>4to semestre</td>
+            <td>En evaluacion</td>
+            <td>
+              <a href="estadisticos.html" class="btn btn-secondary">ESTADISTICOS</a>
+              <a href="editar_periodo.html" class="btn btn-success">EDITAR</a>
+              <button type="submit" class="btn btn-danger"
+                onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
 
 
 
-  
 
-  </body>
+
+
+
+</body>
+
 </html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Innoweb - Peterson F.">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/jumbotron.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('../imagenes/fondo_index.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="container" style="width: 48rem;">
+
+    <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->
+    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1"
+      enctype="multipart/form-data">
+      <div class="row">
+        <div class="col">
+          <label>Nombre</label> <input id="Nombre" class="form-control" type="text" name="Nombre"
+            value="1er Semestre" />
+        </div>
+      </div><!-- row-->
+      <div class="row">
+        <label>Estado</label>
+        <br>
+        <select name="" id="">
+          <option value="">Inciar(proponer)</option>
+          <option value="">En seguimiento</option>
+          <option value="">En evaluacion</option>
+          <option value="">Concluido</option>
+        </select>
+      </div><!-- row-->
+      <div class="row">
+        <label>Rubrica</label>
+        <br>
+        <select name="" id="">
+          <option value="">Numerica</option>
+          <option value="">Alfanumerica</option>
+        </select>
+      </div>
+    </div><!-- row-->
+    <div class="row">
+
+      <div style="margin:0px 0px 0px 830px;">
+        <a class="btn btn-primary" href="mostrar_generaciones.html" role="button">Agregar</a>
+
+      </div>
+    </div><!-- row-->
+    </form>
+
+
+
+  </div>
+
+
+</body>
+
+</html>
