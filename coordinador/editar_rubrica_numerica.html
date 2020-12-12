@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -8,101 +9,73 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<div class = "jumbotron" style="background-image: url(../imagenes/fondo_index.jpg); background-size: 100%;">
-
-
-<br><br>
-
-<div class="container" style="width: 70rem;">
-
-   <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
-    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1" enctype="multipart/form-data">
-      <div class="row" >
-       <div class="col-lg-12">
+<div class="jumbotron" style="background-image: url(../imagenes/fondo_index.jpg); background-size: 100%;">
+  <br><br>
   
   
-        <label>Tipo</label> <input  id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Numerica" />
-      <br>
-        <label>Criterios</label>
-<table class="table table-striped ">
-  <thead class="thead-white">
-    <tr>
+  <div class="container" style="width: 70rem;">
+    <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->
+    <form id="form1" class="well col-lg-12" action="enviar.html" method="post" name="form1"
+      enctype="multipart/form-data">
+      <div class="row">
+        <div class="col-lg-12">
+          <label>Nombre:</label>Rubrica para la evaluación de proyectos
+          <br>
+          <br>
+          <a href="crear_criterios.html" class="btn btn-info btn-lg btn-block">AGREGAR CRITERIO</a>
 
-      <th scope="col">Aspecto</th>
-      <th scope="col">Puntuacion</th>
-      <th scope="col">ACCIONES</th>
-    </tr>
-  </thead>
-  <tbody>
-
-    <tr>
-
-      <td>Estructura y claridad del informe</td>
-      <td>Exelente</td>
-      <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
-<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-    </tr>
-    <tr>
-
-    <tr>
-
-<td>Nivel tecnico empleado en el informe </td>
-<td>Exelente</td>
-<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
-<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-</tr>
-<tr>
-
-<tr>
-
-<td>Apreciacion general de la informacion recibida</td>
-<td>Muy bien</td>
-<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
-<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-</tr>
-<tr>
-
-<tr>
-
-<td>Claridad en la explicacion de la aportacion del avance 
-    y de la descripcion de las actividades futuras
-</td>
-<td>Insuficiente</td>
-<td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
-<button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-</tr>
-<tr>
-
-    <tr>
-
-        <td>Correlacion del porcentaje de avance vs programa
-                original y observaciones
-            </div>
+          <label>Criterios</label>
+          <table class="table table-striped ">
+            <thead class="thead-white">
+              <tr>
+                <th scope="col">Aspecto</th>
+                <th scope="col">ACCIONES</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Estructura y claridad del informe</td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                  <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+              </tr>
+              <tr>
+                <td>Nivel tecnico empleado en el informe </td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                  <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+              </tr>
+              <tr>
+                <td>Apreciacion general de la informacion recibida</td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                  <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+              </tr>
+              <tr>
+                <td>Claridad en la explicacion de la aportacion del avance
+                  y de la descripcion de las actividades futuras
+                </td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                  <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
+              </tr>
+              <tr>
+                <td>Correlacion del porcentaje de avance vs programa
+                  original y observaciones
+                </td>
+                <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
+                  <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button>
+                </td>
+              </tr>
+              <tr>
+            </tbody>
+          </table>
         </div>
-        </td>
-        <td>Muy bien</td>
-        <td><a href="editar_aspecto.html" type="button" class="btn btn-success">EDITAR</a>
-        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Desea eliminar?');">ELIMINAR</button></td>
-        </tr>
-        <tr>
-      
-  </tbody>
-</table>
-
-<br>
-<div style="margin:-20px 0px 0px 0px;">
-  <a class = "btn btn-primary btn-lg"  href="rubricas.html" role = "button">Agregar criterio</a>
-  
       </div>
-  
-      </div></div>
-      
     </form>
-  <br>
-  <div>
-
-
-</div>
-<br><br><br>
-
-  </body>
+    <br>
+    <div>
+    </div>
+    <br><br><br>
+    </body>
